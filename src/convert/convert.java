@@ -1,0 +1,21 @@
+import util.java.Scanner;
+
+public class convert 
+{
+	public static void main(String[] args) 
+	{
+		Scaner sc = new Scanner(System.in);
+		int[] a = sc.nextln();
+		int t;
+		b = new int [a.length()];
+		int i =0;
+		int j = a.length()-1;
+		for(;  i< a.length();  ++i, --j)
+		{ 
+		 t = a[i]; b[j] = t; a[i] = b[j];
+		}
+
+		System.out.println(b.nextln());
+
+	}
+}
